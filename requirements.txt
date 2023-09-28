@@ -1,0 +1,8 @@
+requests
+datetime
+flask
+requests-oauthlib==1.3.1
+OAuth2
+oauthlib
+rauth
+gunicorn
