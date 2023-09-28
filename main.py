@@ -9,11 +9,11 @@ app = Flask(__name__)
 
 @app.route("/", methods=['GET'])
 def run_tw():
-    client_key = '7BUrIbCEngSuXlxzGdW2vh2cd'
-    client_secret = 'wy8LzEwFLZ6ATFmddwEn5qQIFV5OsVG4Vrjnjr8B5Rac8Y6l8s'
-    resource_owner_key = '1240640391482953730-CEMHlT0tLo92Zc3W4KGZjwMunBmmzV'
-    resource_owner_secret = 'tpOx2CgYheUPkaFv8HRFK9I42QFPmqMGhH17hkG2OTFjB'
-    ACCOUNT_ID = '25705856'
+    client_key = #Client key
+    client_secret = #Client Secret
+    resource_owner_key = #Resource Owner Key
+    resource_owner_secret = #Resource Owner Secret
+    ACCOUNT_ID = #Account ID
 
     # Twitter Required Date
     iso_date = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%sZ")
@@ -28,7 +28,7 @@ def run_tw():
 
     payload = {'conversions': [
         {'conversion_time': iso_date,
-         'event_id': 'tw-o8xqn-ocl08',
+         'event_id': #Event ID to send,
          'identifiers': [
              {'twclid': get_twclid()
               }
